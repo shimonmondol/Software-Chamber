@@ -1,4 +1,5 @@
 import React from "react";
+import chamber from "../Image/Chamber.png"
 
 const Chamber = () => {
   return (
@@ -6,7 +7,7 @@ const Chamber = () => {
       <div>
         <img
           className="w-[850px] h-[600px] mx-auto"
-          src="/src/Image/Chamber.png"
+          src={chamber}
           alt=""
         />
       </div>
