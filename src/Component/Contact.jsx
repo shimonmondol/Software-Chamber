@@ -1,4 +1,5 @@
 import React from "react";
+import contact from "../Image/Contact.png";
 
 const Contact = () => {
   return (
@@ -6,7 +7,7 @@ const Contact = () => {
       <div className="h-[300px] lg:w-[666px] lg:h-[500px] bg-black mx-auto">
         <img
           className="w-[600px] h-[500px] lg:w-[550px] lg:h-[700px] pb-[250px] mx-auto"
-          src="/src/Image/Contact.png"
+          src={contact}
           alt=""
         />
       </div>

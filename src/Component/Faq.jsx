@@ -1,4 +1,12 @@
 import React from "react";
+import vector from "../Image/Vector.png";
+import frame from "../Image/Frame.png";
+import frame2 from "../Image/Frame 2147226409.png";
+import line from "../Image/Line 2.png";
+import group from "../Image/Group.png";
+import groupteal from "../Image/Group-teal.png";
+import inputarea from "../Image/InputArea.png";
+
 
 const Faq = () => {
   return (
@@ -12,7 +20,7 @@ const Faq = () => {
         <div className="flex text-start lg:text-center lg:justify-center lg:ml-0">
           <img
             className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] mt-1"
-            src="/src/Image/Vector.png"
+            src={vector}
             alt=""
           />
           <h1 className="text-xl lg:text-4xl text-black ml-2">
@@ -27,7 +35,7 @@ const Faq = () => {
           </h1>
           <img
             className="w-[30px] h-[35px] mt-1 ml-2"
-            src="/src/Image/Frame.png"
+            src={frame}
             alt=""
           />
         </div>
@@ -40,14 +48,14 @@ const Faq = () => {
           <p className="text-xs mt-2">All FAQ</p>
           <img
             className="w-[30px] h-[30px] ml-2"
-            src="/src/Image/Frame 2147226409.png"
+            src={frame2}
             alt=""
           />
         </div>
       </div>
       <img
         className="w-[840px] mt-10 ml-20"
-        src="/src/Image/Line 2.png"
+        src={line}
         alt=""
       />
       <div>
@@ -57,13 +65,13 @@ const Faq = () => {
           </h1>
           <img
             className="mr-20 mt-14 w-10 h-10"
-            src="/src/Image/Group.png"
+            src={group}
             alt=""
           />
         </div>
         <img
           className="w-[840px] ml-20 mt-5"
-          src="/src/Image/Input Area.png"
+          src={inputarea}
           alt=""
         />
       </div>
@@ -72,7 +80,7 @@ const Faq = () => {
           <h1 className="pt-8">What industries do you specialize in?</h1>
           <img
             className="mr-20 mt-6 w-10 h-10"
-            src="/src/Image/Group-teal.png"
+            src={groupteal}
             alt=""
           />
         </div>
@@ -84,7 +92,7 @@ const Faq = () => {
         </p>
         <img
           className="w-[840px] ml-20 mt-5"
-          src="/src/Image/Input Area.png"
+          src={inputarea}
           alt=""
         />
       </div>
@@ -95,13 +103,13 @@ const Faq = () => {
           </h1>
           <img
             className="mr-20 mt-5 w-10 h-10"
-            src="/src/Image/Group.png"
+            src={group}
             alt=""
           />
         </div>
         <img
           className="w-[840px] ml-20 mt-7"
-          src="/src/Image/Input Area.png"
+          src={inputarea}
           alt=""
         />
       </div>
@@ -112,13 +120,13 @@ const Faq = () => {
           </h1>
           <img
             className="mr-20 mt-5 w-10 h-10"
-            src="/src/Image/Group.png"
+            src={group}
             alt=""
           />
         </div>
         <img
           className="w-[840px] ml-20 mt-7"
-          src="/src/Image/Input Area.png"
+          src={inputarea}
           alt=""
         />
       </div>

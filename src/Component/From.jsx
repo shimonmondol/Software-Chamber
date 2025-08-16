@@ -1,4 +1,6 @@
 import React from "react";
+import reactangular from "../Image/Rectangle 240648291.png";
+import frame from "../Image/Frame 2147227262.png";
 
 const From = () => {
   return (
@@ -14,8 +16,8 @@ const From = () => {
         </p>
       </div>
       <div className="flex">
-        <img className="w-[280px] h-[300px] mt-20 ml-40" src="/src/Image/Rectangle 240648291.png" alt="" />
-        <img className="w-[350px] h-[300px] mt-20 ml-10" src="/src/Image/Frame 2147227262.png" alt="" />
+        <img className="w-[280px] h-[300px] mt-20 ml-40" src={reactangular} alt="" />
+        <img className="w-[350px] h-[300px] mt-20 ml-10" src={frame} alt="" />
       </div>
     </div>
   );
