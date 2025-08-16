@@ -5,7 +5,7 @@ const Chamber = () => {
     <div>
       <div>
         <img
-          className="w-[389px] h-[230px] lg:w-[850px] lg:h-[600px] lg:mx-auto"
+          className="w-[850px] h-[600px] mx-auto"
           src="/src/Image/Chamber.png"
           alt=""
         />
