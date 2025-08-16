@@ -1,4 +1,14 @@
 import React from "react";
+import vector from "../Image/Vector.png";
+import frame from "../Image/Frame.png";
+import rectangle from "../Image/Rectangle 6.png";
+import image1 from "../Image/1.png";
+import image2 from "../Image/2.png";
+import image3 from "../Image/3.png";
+import image4 from "../Image/4.png";
+import line from "../Image/Line.png";
+import arrowright from "../Image/arrow-right.png";
+import frame2 from "../Image/Frame 2147226411.png";
 
 const Service = () => {
   return (
@@ -8,7 +18,7 @@ const Service = () => {
           <div className="flex ml-12 lg:text-center lg:ml-0 pt-12">
             <img
               className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] lg:ml-40 mt-1"
-              src="/src/Image/Vector.png"
+              src={vector}
               alt=""
             />
             <h1 className="text-xl lg:text-4xl text-black ml-2">
@@ -28,11 +38,7 @@ const Service = () => {
             <h1 className="text-xl lg:text-4xl text-gray-400 ml-2">
               digital solutions
             </h1>
-            <img
-              className="w-[30px] h-[35px] mt-1 ml-2"
-              src="/src/Image/Frame.png"
-              alt=""
-            />
+            <img className="w-[30px] h-[35px] mt-1 ml-2" src={frame} alt="" />
           </div>
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-3 pt-20">
@@ -51,20 +57,12 @@ const Service = () => {
             </div>
           </div>
           <div className="ml-25 mt-12 lg:ml-0 lg:mt-0">
-            <img
-              className="w-[300px] h-[300px]"
-              src="/src/Image/Rectangle 6.png"
-              alt=""
-            />
+            <img className="w-[300px] h-[300px]" src={rectangle} alt="" />
           </div>
           <div>
             <div className="pt-12 pl-30 lg:pt-0 lg:pl-0">
               <div className="flex mt-1">
-                <img
-                  className="w-[35px] h-[35px]"
-                  src="/src/Image/1.png"
-                  alt=""
-                />
+                <img className="w-[35px] h-[35px]" src={image1} alt="" />
                 <div className="ml-3">
                   <h1 className="text-sm font-semibold mt-[-4]">
                     Your Team in the cloud
@@ -75,17 +73,9 @@ const Service = () => {
                   </p>
                 </div>
               </div>
-              <img
-                className="w-[250px] mt-3"
-                src="/src/Image/Line.png"
-                alt=""
-              />
+              <img className="w-[250px] mt-3" src={line} alt="" />
               <div className="flex mt-3">
-                <img
-                  className="w-[35px] h-[35px]"
-                  src="/src/Image/2.png"
-                  alt=""
-                />
+                <img className="w-[35px] h-[35px]" src={image2} alt="" />
                 <div className="ml-3">
                   <h1 className="text-sm font-semibold mt-[-4]">
                     Grow more with less
@@ -95,17 +85,9 @@ const Service = () => {
                   </p>
                 </div>
               </div>
-              <img
-                className="w-[250px] mt-3"
-                src="/src/Image/Line.png"
-                alt=""
-              />
+              <img className="w-[250px] mt-3" src={line} alt="" />
               <div className="flex mt-3">
-                <img
-                  className="w-[35px] h-[35px]"
-                  src="/src/Image/3.png"
-                  alt=""
-                />
+                <img className="w-[35px] h-[35px]" src={image3} alt="" />
                 <div className="ml-3">
                   <h1 className="text-sm font-semibold mt-[-4]">
                     Weekly sprint and reviews
@@ -116,17 +98,9 @@ const Service = () => {
                   </p>
                 </div>
               </div>
-              <img
-                className="w-[250px] mt-3"
-                src="/src/Image/Line.png"
-                alt=""
-              />
+              <img className="w-[250px] mt-3" src={line} alt="" />
               <div className="flex mt-3">
-                <img
-                  className="w-[35px] h-[35px]"
-                  src="/src/Image/4.png"
-                  alt=""
-                />
+                <img className="w-[35px] h-[35px]" src={image4} alt="" />
                 <div className="ml-3">
                   <h1 className="text-sm font-semibold mt-[-4]">
                     Communication First
@@ -147,17 +121,13 @@ const Service = () => {
             <h1 className="text-2xl lg:text-6xl">Services</h1>
             <img
               className="w-[20px] h-[20px] lg:w-[30px] lg:h-[30px] mt-2 ml-0 lg:mt-4 lg:ml-2"
-              src="/src/Image/Vector.png"
+              src={vector}
               alt=""
             />
           </div>
           <div className="flex ml-20 lg:mt-6 lg:mr-20">
             <p className="text-xs mt-2">All Services</p>
-            <img
-              className="w-[30px] h-[30px] ml-2"
-              src="/src/Image/arrow-right.png"
-              alt=""
-            />
+            <img className="w-[30px] h-[30px] ml-2" src={arrowright} alt="" />
           </div>
         </div>
         <div className="grid flex-row grid-cols-2 lg:grid-cols-3">
@@ -169,11 +139,7 @@ const Service = () => {
               Software Chamber specializes in creating <br /> powerful,
               scalable, and secure e-
             </p>
-            <img
-              className="w-[50px] h-[50px] mt-6 ml-2"
-              src="/src/Image/Frame 2147226411.png"
-              alt=""
-            />
+            <img className="w-[50px] h-[50px] mt-6 ml-2" src={frame2} alt="" />
           </div>
           <div className="bg-[#27B4A3] w-[260px] h-[230px] rounded-2xl mt-10 lg:ml-10">
             <h1 className="text-2xl text-[#FFFFFF] font-semibold ml-4 pt-6">
@@ -183,11 +149,7 @@ const Service = () => {
               Software Chamber specializes in creating <br /> powerful,
               scalable, and secure e-
             </p>
-            <img
-              className="w-[50px] h-[50px] mt-6 ml-2"
-              src="/src/Image/Frame 2147226411.png"
-              alt=""
-            />
+            <img className="w-[50px] h-[50px] mt-6 ml-2" src={frame2} alt="" />
           </div>
           <div className="bg-[#F3F3F3] w-[260px] h-[230px] rounded-2xl mt-10 ml-27 lg:ml-0">
             <h1 className="text-2xl font-semibold ml-4 pt-6">
@@ -197,11 +159,7 @@ const Service = () => {
               Software Chamber specializes in creating <br /> powerful,
               scalable, and secure e-
             </p>
-            <img
-              className="w-[50px] h-[50px] mt-6 ml-2"
-              src="/src/Image/Frame 2147226411.png"
-              alt=""
-            />
+            <img className="w-[50px] h-[50px] mt-6 ml-2" src={frame2} alt="" />
           </div>
         </div>
       </div>

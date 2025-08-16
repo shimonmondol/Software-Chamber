@@ -1,4 +1,6 @@
 import React from "react";
+import power from "../Image/Power.png"
+import idea from "../Image/Idea.png"
 
 const Power = () => {
   return (
@@ -6,12 +8,12 @@ const Power = () => {
       <div>
         <img
           className="w-[850px] h-[600px] bg-black mx-auto"
-          src="/src/Image/Power.png"
+          src={power}
           alt=""
         />
         <img
           className="w-[850px] bg-black mx-auto"
-          src="/src/Image/Idea.png"
+          src={idea}
           alt=""
         />
       </div>

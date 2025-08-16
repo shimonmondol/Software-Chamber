@@ -1,4 +1,5 @@
 import React from "react";
+import development from "../Image/Development.png" 
 
 const Development = () => {
   return (
@@ -6,7 +7,7 @@ const Development = () => {
       <div className="mt-10">
         <img
           className="w-[850px] h-[600px] bg-black mx-auto"
-          src="/src/Image/Development.png"
+          src={development}
           alt=""
         />
       </div>
